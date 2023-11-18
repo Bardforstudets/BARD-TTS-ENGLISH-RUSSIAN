@@ -29,3 +29,11 @@ Bard, a large language model from Google AI
 License:
 The script is licensed under the MIT License.
 
+
+This repository contains code for generating audio recordings of text in Russian and English.
+The script can be used to generate audio recordings of any text. To generate an audio recording of text in Russian, use the following parameters:
+python tts.py --lang ru --text "This is a sentence in Russian."
+
+
+To generate an audio recording of text in English, use the following parameters:
+python tts.py --lang en --text "This is a sentence in English."
